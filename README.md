@@ -12,3 +12,14 @@ fit so long as attribution is retained.
 const utils = require('utils');
 console.log(utils.randomAlphaNumeric(26));
 ```
+
+## Reference
+
+### utils.randomAlphaNumeric(size)
+Returns a secure (thanks to `secure-random`) random alpha-numeric string of the
+specified length.
+
+```javascript
+> utils.randomAlphaNumeric(32);
+'BfRbHDi2kBSGnUat3OWk6i6BhF7oCnDl'
+```
