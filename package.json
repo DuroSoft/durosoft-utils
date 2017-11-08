@@ -1,0 +1,25 @@
+{
+  "name": "utils",
+  "version": "1.0.0",
+  "description": "Publicly accessible Node.js utility functions used in various DuroSoft projects",
+  "main": "utils.js",
+  "scripts": {
+    "test": "mocha test.js --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DuroSoft/node-utils.git"
+  },
+  "keywords": [
+    "utility",
+    "string",
+    "manipulation",
+    "encryption"
+  ],
+  "author": "DuroSoft Technologies, LLC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DuroSoft/node-utils/issues"
+  },
+  "homepage": "https://github.com/DuroSoft/node-utils#readme"
+}
