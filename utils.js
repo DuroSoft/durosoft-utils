@@ -9,3 +9,11 @@ utils.randomAlphaNumeric = (size) => {
     .replace(/[\/+=]/g, '') // strip non-alpha/num chars
     .substring(0, size); // trim down to intended size
 }
+
+utils.randomInt = (a, b) => {
+  var buff = secureRandom(6, {type: 'Buffer'});
+  var seed = Math.abs(buff.readUIntBE(0, 6));
+  if(a === undefined) a = 0;
+  if(b === undefined) b = Number.MAX_SAFE_INTEGER;
+  return seed % (b - a) + a;
+}
