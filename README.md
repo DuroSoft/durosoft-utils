@@ -13,7 +13,8 @@ const utils = require('utils');
 console.log(utils.randomAlphaNumeric(26));
 ```
 
-## Reference
+
+## Random Number Generation
 
 ### utils.randomAlphaNumeric(size)
 Returns a secure (thanks to `secure-random`) random alpha-numeric string of the
@@ -39,6 +40,10 @@ possible integer, since *b* is exclusive).
 > utils.randomInt(0, 100);
 39
 ```
+
+
+## Cryptography
+
 ### utils.setCryptoAlgorithm(algorithm)
 Sets the current encryption/decryption algorithm used by the system. Defaults to
 `'aes-256-gcm'`, which corresponds with 256-bit AES encryption in GCM mode.
